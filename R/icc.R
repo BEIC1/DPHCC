@@ -7,7 +7,6 @@ len <- 1068
 icc_val<-vector(length=len)
 thr <- 0.9
 
-#selected <- feature_1[feature_1$ID %in% feature_2$ID,]
 selected <- feature_1
 for (i in 2:len){
   ratings <- cbind(selected[,i],feature_2[,i])
