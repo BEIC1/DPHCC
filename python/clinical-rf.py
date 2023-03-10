@@ -191,7 +191,7 @@ while flag < 2:
         print('random_state when Max_AUC occurs= ', max_time)
         print("try again")
         rs = rs + 1
-        pass
+
     
 plt.fill_between(mean_fpr, tprs_lower, tprs_upper, color='gray', alpha=.2)
 plt.xlim([-0.05, 1.05])
